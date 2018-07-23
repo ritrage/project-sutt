@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+    margin:0;
+    background-image: url("https://wallpapercave.com/wp/WbgNx8f.jpg");
+    background-repeat: no-repeat;
+}
+
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+    bottom: 0;
+    position:fixed;
+}
+
+.icon-bar div {
+    float: left;
+    width: 31%;
+    text-align: center;
+    padding: 5px 0px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 40px;
+}
+
+.dropup {
+    background-color: #555;
+    width:10%;
+    padding: 5px 0px;
+    position: relative;
+}
+
+.innovate {
+background-color: #5FCDEE;
+}
+
+.dropup:hover {
+  background-color: black;
+}
+
+.dropup-content {
+  display:none;
+    position: fixed;
+    background-color: #555;
+    min-width: 21%;
+    bottom: 56px;
+    z-index: 1;
+}
+
+a, span {
+font-size:20px;
+color:white;
+padding: 12px 16px;
+text-decoration:none;
+display:block;
+}
+
+a:hover, span:hover {
+background-color:black;
+}
+
+.dropup:hover .dropup-content {
+display: block;
+}
+
+.dropside {
+overflow:auto;
+display:none;
+background-color:grey;
+position:fixed;
+padding:5px 5px;
+margin-left:25%;
+width: 15%;
+margin-top:-120px;
+font-size: 15px;
+}
+
+.h:hover .dropside {
+display:block;
+}
+
+</style>
+<body>
+
+<div class="icon-bar">
+  <div class="dropup" style="width:7%;"><img class="dropbtn" src="https://upload.wikimedia.org/wikipedia/en/d/d3/BITS_Pilani-Logo.svg" alt="bits logo" height="38">
+  <div class = "dropup-content">
+    <span class = "dropbtn h">STUDENT PORTAL
+    <div class = "dropside">
+    <a href = "#">Documents / Stats / Reviews</a>
+    <a href="#">Common Links</a>
+    <a href="#">FAQs</a>
+    </div>
+    </span>
+    <span class = "dropbtn h">OUR TEAM
+    <div class = "dropside">
+    <a href="#">SU</a>
+    <a href="#">Placement Division</a>
+    <a href="#">Departments</a>
+    <a href="#">Clubs</a>
+    </div>
+    </span>
+    <span class = "dropbtn h">EVENTS
+    <div class = "dropside">
+    <a href="https://bits-pearl.org">PEARL</a>
+    <a href="https://bits-atmos.org">ATMOS</a>
+    <a href="https://bits-arena.com/">ARENA</a>
+    <a href="https://bitsvm.in">VERBA MAXIMUS</a>
+    <a href="https://bitsmunhyd.in">BITSMUN</a>
+    <a href="http://www.tedxbitshyderabad.com">TEDx BITS HYD</a>
+    </div>
+    </span>
+    <a href="#">DISCUSSION / FORUMS</a>
+    <a href="#">MORE</a>
+  </div></div> 
+  <div class="innovate" style="color:navy;">INNOVATE</div> 
+  <div class = "achieve" style="background-color:#C61C2A; color:#B79650;">ACHIEVE</div> 
+  <div class = "lead" style="background-color:#FFE766; color:#353563;">LEAD</div> 
+</div>
+</body>
+</html>
